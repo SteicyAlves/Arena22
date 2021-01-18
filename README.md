@@ -3,26 +3,35 @@
 
 ## Configurando Ambiente de Automação
 
-```shell script
-1) Clone este projeto executando em seu terminal: git clone https://github.com/Steicy-Alves-Arena/Arena22
 
-2) Instale o Ruby com versão >= 2.4.0
+#### 1) Clone este projeto executando em seu terminal: git clone https://github.com/Steicy-Alves-Arena/Arena22
+
+#### 2) Instale o Ruby com versão >= 2.4.0
+```shell script
     - Instruções para Baixar o Ruby: https://www.ruby-lang.org/pt/downloads/
         Instruções para Instalar o Ruby: https://www.ruby-lang.org/pt/documentation/installation/
         Instalador para Windows: https://rubyinstaller.org/
+```
 
-3) Instale a GEM do Bundler para gestão das GEMs
-    Execute no terminal: gem install bundler
+#### 3) Instale a GEM do Bundler para gestão das GEMs
+```shell script
+    **Execute no terminal:** gem install bundler
     Informações sobre o uso do Bundler: https://bundler.io/
+```
 
-4) Instale todas as gems usadas no projeto
+#### 4) Instale todas as gems usadas no projeto
+```shell script
     #Após a execução do comando abaixo todas as GEMs utilizadas no projeto serão instaladas 
     Na pasta raiz do projeto execute: bundler install
+```
 
-5) Caso necessite verificar as configurações de ambiente do Ruby
+#### 5) Caso necessite verificar as configurações de ambiente do Ruby
+```shell script
     Execute no terminal: gem env
+```
 
-6) Instale os drivers do chrome(chromedriver) e do firefox(geckodriver):
+#### 6) Instale os drivers do chrome(chromedriver) e do firefox(geckodriver):
+```shell script
     Link para Baixar o ChromeDriver para GoogleChrome: http://chromedriver.storage.googleapis.com/index.html
     Link para Baixar o Geckodriver para Firefox: https://github.com/mozilla/geckodriver/releases
 
@@ -42,7 +51,6 @@
             Para GeckoDriver:
             chmod +x geckodriver
             sudo mv geckodriver /usr/local/bin
-
 ```
 
 
