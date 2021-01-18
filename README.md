@@ -15,7 +15,7 @@
 
 #### 3) Instale a GEM do Bundler para gestão das GEMs
 ```shell script
-    **Execute no terminal:** gem install bundler
+    Execute no terminal: gem install bundler
     Informações sobre o uso do Bundler: https://bundler.io/
 ```
 
