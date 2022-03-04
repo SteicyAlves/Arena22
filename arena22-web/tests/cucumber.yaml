@@ -1,5 +1,5 @@
 ---
-default: -p hml -p chrome -p html -p bdd -p json --publish-quiet
+default: -p hmlgratis -p chrome -p html -p bdd -p json --publish-quiet
 script: -p hml -p headless -p html -p bdd -p json --publish-quiet
 ci: -p dev -p headless -p json -p progress --publish-quiet
 

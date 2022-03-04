@@ -44,17 +44,16 @@ class UserRegistrationPage < SitePrism::Page
     end
 
     def fill_only_requireds_email(user)
-        name_input.set(user.name) 
-        last_name_input.set(user.last_name)
-        #nickname_input.set(user.nickname)
-        birth_date_input.set(user.birth_date)
-        phone_number_input.set(user.phone_number)
         email_input.set(user.email)
-        email_confirm_input.set(user.email)
         password_input.set(user.password)
         password_confirm_input.set(user.password)
+        nickname_input.set(user.nickname)
+        name_input.set(user.name) 
+        cpf_input.set(user.cpf)
+        birth_date_input.set(user.birth_date)
+        phone_number_input.set(user.phone_number)
    
-        click_element(@terms_check)
+        click_element(@email_check)
     end
 
     def click_oauth_button(oauth_button)
