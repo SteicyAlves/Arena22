@@ -53,7 +53,7 @@ class UserRegistrationPage < SitePrism::Page
         birth_date_input.set(user.birth_date)
         phone_number_input.set(user.phone_number)
    
-        click_element(@email_check)
+        click_element(@terms_check)
     end
 
     def click_oauth_button(oauth_button)
