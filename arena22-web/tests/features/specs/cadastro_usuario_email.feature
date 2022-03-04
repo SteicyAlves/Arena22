@@ -11,7 +11,7 @@ Desejo realizar meu cadastro de usuário
     Dado que estou na tela de Cadastro do Usuário
     Quando preencho todos os campos do formulário
     E clico no botão "Criar conta"
-    Então o sistema exibe a tela de bem-vindo com a mensagem "Seu Cadastro foi realizado com sucesso!"
+    Então o sistema exibe a tela de bem-vindo com o apelido do usuário
 
     @CT02 @campos_obrigatorios @sucesso
     Cenário: Apenas Campos Obrigatórios Preenchidos
