@@ -3,14 +3,13 @@ module ConvertDataFiles
     def convert_user_data(user_code)
         user = $user_file[user_code.to_s.downcase]
         location = '[Arquivo: user.yaml]'
-        converted_user = { :name => validate_required(user['name'], 'name', location),
-                           :last_name => validate_required(user['last_name'], 'last_name', location),
+        converted_user = { :email => validate_email(user['email'], 'Email', location),
+                           :password => validate_password(user['password'], 'Password', location),
                            :nickname => validate_required(user['nickname'], 'nickname', location),
+                           :name => validate_required(user['name'], 'name', location),
                            :cpf => validate_cpf(user['cpf'], location),
                            :birth_date => validate_date(user['birth_date'], 'Birth_date', location),
                            :phone_number => validate_phone_number(user['phone_number'], 'Phone_number', location),
-                           :email => validate_email(user['email'], 'Email', location),
-                           :password => validate_password(user['password'], 'Password', location),
                            :coupon => user['coupon']
                         }
         return converted_user
