@@ -1,0 +1,119 @@
+user_cash_1:
+  id: 17248
+  cpf: '47173538890'
+  nickname:
+  site: 1 # 1 - Arena 22, 2 - Super Jogos
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 500
+
+user_cash_2:
+  id:
+  cpf: '61180466705'
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 500
+
+user_cash_3:
+  id:
+  cpf: '98538132466'
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 500
+
+user_cash_4:
+  id:
+  cpf: '39701021894'
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 500
+
+user_cash_5:
+  id: 28150
+  cpf: '33536984002'
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 500
+
+user_cash_6:
+  id: 
+  cpf: '43005811859'
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 500
+
+user_cash_7:
+  id: 23279
+  cpf:
+  nickname:
+  site: 2   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 0
+
+user_cash_8: #Dá erro pra inserir diamante, investigar
+  id: 22691
+  cpf:
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 500
+
+user_cash_9:
+  id: 17346
+  cpf:
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 0
+
+user_cash_10:
+  id: 28776
+  cpf:
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 0
+
+user_cash_11:
+  id: 29577
+  cpf:
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 0
+
+user_cash_12:
+  id: 36823
+  cpf:
+  nickname:
+  site: 1   
+  crédito: 180
+  comissão: 150
+  prêmio: 200
+  diamante: 0

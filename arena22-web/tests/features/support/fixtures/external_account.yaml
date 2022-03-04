@@ -1,0 +1,17 @@
+email:
+  type: 'Email'
+  nickname: 'Email'
+  email: 'testeemail.arena22@gmail.com'
+  password: 'Aren@04uthEmail.22!'
+
+google:
+  type: 'Google'
+  nickname: 'Teste'
+  email: 'testeoauth.arena22@gmail.com'
+  password: 'Aren@04uth.22!'
+
+facebook:
+  type: 'Facebook'
+  nickname: 'Facebook'
+  email: 'testeoauth.arena22@gmail.com'
+  password: 'Aren@04uthFace.22!'

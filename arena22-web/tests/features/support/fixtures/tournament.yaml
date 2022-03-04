@@ -1,0 +1,83 @@
+tournament_test_1:
+  type: 'Vencedor' #Vencedor, Fundamento, Sobrevivente, Bolão
+  name: 'Vencedor Automatizado Comissão Arena'
+  description: 'Teste Automatizado do Tipo de Torneio Vencedor'
+  image: 'vencedor.png'
+  value_participation: 500
+  administration_fee: '16.00'
+  type_prize_split: 'Dobro ou nada' #10%, 15%, 20%, 50%, 3, 10 , Dobro ou nada
+  tiebreaker: 1 #Divisão do prêmio -> 1, Ordem de entrada -> 2
+  score_format: 2 #Soma -> 1, Multiplicação -> 2
+  guess_type: #Por partida -> 1, Por rodada -> 2, Por torneio -> 3
+  postponed_match:   #Aguardar partida -> 1, Excluir partida -> 2
+  country: 'Brasil' #Nome do país
+  championship: 'Campeonato Brasileiro' #Nome do Campeonato
+  round: #Nome da Rodada
+  number_matches_rounds: 5
+  teams_by_fundamentals: 
+  number_fundamentals: 
+  initial_date: '20/04/2021'
+  final_date: '21/04/2021'
+
+tournament_test_2:
+  type: 'Scouts'
+  name: 'Scouts Automatizado Comissão Arena'
+  description: 'Teste Automatizado do Tipo de Torneio Scouts'
+  image: 'scouts.png'
+  value_participation: 15
+  administration_fee: 
+  type_prize_split: '50%' 
+  tiebreaker: 1
+  score_format: 
+  guess_type:  
+  postponed_match: 
+  country: 'Brasil'
+  championship: 'Campeonato Brasileiro'
+  round:
+  number_matches_rounds: 2
+  teams_by_fundamentals: 2
+  number_fundamentals: 6
+  initial_date: 
+  final_date:
+
+tournament_test_3:
+  type: 'Sobrevivente' 
+  name: 'Sobrevivente Automatizad Comissão Arena'
+  description: 'Teste Automatizado do Tipo de Torneio Sobrevivente'
+  image: 'sobrevivente.png'
+  value_participation: 20
+  administration_fee: '18.00'
+  type_prize_split: '10%' 
+  tiebreaker:  
+  score_format:  
+  guess_type:  
+  postponed_match:  
+  country: 'Brasil'
+  championship: 'Campeonato Brasileiro'
+  round:
+  number_matches_rounds: 1
+  teams_by_fundamentals: 
+  number_fundamentals: 
+  initial_date: 
+  final_date:
+
+tournament_test_4:
+  type: 'Placar' 
+  name: 'Placar Automatizado Comissão Arena'
+  description: 'Teste Automatizado do Tipo de Torneio Placar'
+  image: 'placar.png'
+  value_participation: 10
+  administration_fee: 
+  type_prize_split: 3 
+  tiebreaker:  
+  score_format:  
+  guess_type:  
+  postponed_match:  
+  country: 'Brasil'
+  championship: 'Campeonato Brasileiro'
+  round:
+  number_matches_rounds: 4
+  teams_by_fundamentals: 
+  number_fundamentals:
+  initial_date: 
+  final_date: 

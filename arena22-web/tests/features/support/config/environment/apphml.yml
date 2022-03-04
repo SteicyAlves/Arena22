@@ -1,0 +1,9 @@
+---
+url: "https://apphml.arena22.com.br/"
+environment: 
+database:
+  :host: "arenahmlsrv.database.windows.net"
+  :database: "Arenahmldatabase"
+  :username: "arenausrdb"
+  :password: "T1kQ0lAXjTik0ef"
+  :azure: TRUE

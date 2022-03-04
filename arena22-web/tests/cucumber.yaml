@@ -1,0 +1,29 @@
+---
+default: -p hml -p chrome -p html -p bdd -p json --publish-quiet
+script: -p hml -p headless -p html -p bdd -p json --publish-quiet
+ci: -p dev -p headless -p json -p progress --publish-quiet
+
+# Environments
+#dev: ENV_TYPE=dev
+hml: ENV_TYPE=hml
+hmlgratis: ENV_TYPE=hmlgratis
+apphml: ENV_TYPE=apphml
+hml02: ENV_TYPE=hml02
+hml02gratis: ENV_TYPE=hml02gratis
+hml03: ENV_TYPE=hml03
+hml03gratis: ENV_TYPE=hml03gratis
+hmlsj: ENV_TYPE=hmlsj
+
+# Browsers
+firefox: BROWSER=Firefox
+chrome: BROWSER=Chrome
+ie: BROWSER=Internet_Explorer
+edge: BROWSER=Edge
+opera: BROWSER=Opera
+headless: BROWSER=Headless
+
+# Reports
+bdd: --format pretty
+dot: --format progress
+html: --format html --out=reports/report.html
+json: --format message --out=reports/report.ndjson

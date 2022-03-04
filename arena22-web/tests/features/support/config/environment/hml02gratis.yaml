@@ -1,0 +1,9 @@
+---
+url: "https://hml02gratis-web.azurewebsites.net"
+environment: "02"
+database:
+  :host: "arenahml02srv.database.windows.net"
+  :database: "Arenahml02database"
+  :username: "arenausrdb"
+  :password: "T1kQ0lAXjTik0ef"
+  :azure: TRUE

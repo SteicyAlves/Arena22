@@ -1,0 +1,9 @@
+---
+url: ""
+environment: ""
+database:
+  :host: ""
+  :database: ""
+  :username: ""
+  :password: ""
+  :azure: #TRUE or FALSE

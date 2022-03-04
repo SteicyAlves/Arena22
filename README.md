@@ -6,7 +6,7 @@
 
 #### 1) Clone este projeto executando em seu terminal: git clone https://github.com/Steicy-Alves-Arena/Arena22
 
-#### 2) Instale o Ruby com versão >= 2.4.0
+#### 2) Instale o Ruby com versão >= 2.5.0
 ```shell script
     - Instruções para Baixar o Ruby: https://www.ruby-lang.org/pt/downloads/
         Instruções para Instalar o Ruby: https://www.ruby-lang.org/pt/documentation/installation/
@@ -30,17 +30,19 @@
     Execute no terminal: gem env
 ```
 
-#### 6) Instale os drivers do chrome(chromedriver) e do firefox(geckodriver):
+#### 6) Instale os drivers do chrome, firefox, internet explorer e o Cucumber Standalone JSON Formatter:
 ```shell script
     Link para Baixar o ChromeDriver para GoogleChrome: http://chromedriver.storage.googleapis.com/index.html
     Link para Baixar o Geckodriver para Firefox: https://github.com/mozilla/geckodriver/releases
+    Link para Baixar o IE Driver para Internet Explorer: https://www.selenium.dev/downloads/
+    Link para Baixar o Cucumber Standalone JSON Formatter: https://github.com/cucumber/cucumber/releases/tag/cucumber-json-formatter%2Fv6.0.0
 
-    - Instruções para instalação do Chromedriver e Geckodriver no Windows, Linux ou Mac: ​​
+    - Instruções para instalação no Windows, Linux ou Mac: ​​
     ​
-        1) Faça o download do Chromedriver e Geckodriver (conforme seu SO);
+        1) Faça o download do ChromeDriver, GeckoDriver, IE Driver e Cucumber Standalone JSON Formatter (conforme seu SO);
         2) Descompacte;
         #Apenas para Windows
-        3) Acesse a pasta onde descompactou o binário e mova o executável para a pasta Windows;
+        3) Acesse a pasta onde descompactou o binário e mova os executáveis para a pasta Windows;
         #Apenas para Linux ou Mac
         3) Acesse a pasta onde descompactou o binário e execute os comandos:
 
@@ -51,8 +53,13 @@
             Para GeckoDriver:
             chmod +x geckodriver
             sudo mv geckodriver /usr/local/bin
-```
 
+            Para Cucumber Standalone JSON Formatter:
+            Renomeie o cucumber-json-formatter-linux-amd64 (ou outra versão de CPU) para cucumber-json-formatter
+            chmod +x cucumber-json-formatter
+            sudo mv cucumber-json-formatter /usr/local/bin
+            Para verificar se tudo ocorreu com sucesso: cucumber-json-formatter --help
+```
 
 ## Execução dos Cenários de Teste
 
@@ -61,7 +68,7 @@ Para executar os testes, acesse a pasta raiz do projeto e execute no terminal:
     - Para executar todos os cenários de teste: cucumber
 
     #A tag do cenário pode ser encontrada dentro de features/specs/arquivo.feature desejado
-    - Para executar um teste específico: cucumber -t @tag_do_cenario
+    - Para executar um teste específico: cucumber -t '@tag_do_cenario'
 ```
 
 

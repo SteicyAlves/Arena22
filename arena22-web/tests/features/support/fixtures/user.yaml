@@ -1,0 +1,43 @@
+user_test_1:
+  name: 'L'
+  last_name: 'Lawliet'
+  nickname: 'Mr. Lawliet'
+  cpf: '61180466705'
+  birth_date: '31/10/1982'
+  phone_number: '11998248798'
+  email: 'automacao.arena22@gmail.com'
+  password: 'Aren@12345678$'
+  coupon: 'SUCESSOCASH'
+
+user_test_2:
+  name: 'Ana'
+  last_name: 'Elisa'
+  nickname: 'Lisa Simpson'
+  cpf: '98538132466'
+  birth_date: '22/07/1997'
+  phone_number: '11978855989'
+  email: 'teste.arena22@gmail.com'
+  password: 'Aren@12345678$'
+  coupon: 'SUCESSOCASH'
+
+user_test_3:
+  name: 'Maria'
+  last_name: 'Luiza'
+  nickname: 'Paty Maionese'
+  cpf: '39701021894'
+  birth_date: '25/07/2002'
+  phone_number: '84992395779'
+  email: 'steicy.alves@arena22.gratis'
+  password: 'Aren@12345678$'
+  coupon: 'SUCESSOCASH'
+
+user_test_4:
+  name: 'Antonio'
+  last_name: 'Roberto'
+  nickname: 'Toninho'
+  cpf: '43005811859'
+  birth_date: '16/12/1993'
+  phone_number: '82983458063'
+  email: 'arenateste12@gmail.com'
+  password: 'Aren@12345678!'
+  coupon: 'SUCESSOCASH'
