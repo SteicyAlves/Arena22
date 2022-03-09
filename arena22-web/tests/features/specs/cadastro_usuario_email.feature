@@ -11,14 +11,14 @@ Desejo realizar meu cadastro de usuário
     Dado que estou na tela de Cadastro do Usuário
     Quando preencho todos os campos do formulário
     E clico no botão "Criar conta"
-    Então o sistema exibe a tela de bem-vindo com o apelido do usuário
+    Então o sistema exibe a tela de bem-vindo com meu apelido de usuário
 
     @CT02 @campos_obrigatorios @sucesso
     Cenário: Apenas Campos Obrigatórios Preenchidos
     Dado que estou na tela de Cadastro do Usuário
     Quando preencho apenas os campos obrigatórios do formulário
     E clico no botão "Criar conta"
-    Então o sistema exibe a tela de bem-vindo com o apelido do usuário
+    Então o sistema exibe a tela de bem-vindo com meu apelido de usuário
 
     @CT03 @por_torneio @sucesso
     Cenário: Com Direcionamento para a Tela de Palpites do Torneio

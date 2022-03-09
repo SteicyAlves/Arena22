@@ -14,7 +14,7 @@ Dado que estou na tela de Cadastro do Usuário
     Quando realizo login oauth em minha <conta_externa>
     E preencho todas as informações restantes corretamente
     E clico no botão "Criar conta"
-    Então o sistema exibe a tela de bem-vindo com o apelido do usuário
+    Então o sistema exibe a tela de bem-vindo com meu apelido de usuário
 
     Exemplos:
     | conta_externa |
