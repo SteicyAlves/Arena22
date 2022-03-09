@@ -64,13 +64,12 @@ class UserRegistrationPage < SitePrism::Page
     end
 
     def fill_with_oauth(user)
+        nickname_input.set(user.nickname)
         name_input.set(user.name) 
-        last_name_input.set(user.last_name)
-        #nickname_input.set(user.nickname)
         cpf_input.set(user.cpf)
         birth_date_input.set(user.birth_date)
         phone_number_input.set(user.phone_number)
-        #coupon_accordion.click
+        coupon_accordion.click
         coupon_input.set(user.coupon)
    
         click_element(@terms_check)

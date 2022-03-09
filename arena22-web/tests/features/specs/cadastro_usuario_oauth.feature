@@ -11,12 +11,12 @@ Dado que estou na tela de Cadastro do Usuário
     
     @CT04 @todos_campos @sucesso
     Esquema do Cenário: Com Sucesso
-    Quando realizo login oauth em minha conta <externa> através do botão <botao>
-    E preencho as informações solicitadas corretamente
+    Quando realizo login oauth em minha <conta_externa>
+    E preencho todas as informações restantes corretamente
     E clico no botão "Criar conta"
-    Então o sistema exibe a tela de bem-vindo com a mensagem "Seu Cadastro foi realizado com sucesso!"
+    Então o sistema exibe a tela de bem-vindo com o apelido do usuário
 
     Exemplos:
-    | externa    | botao                   |
-    | "Google"   | "Continue com Google"   |
-    | "Facebook" | "Continue com Facebook" |
+    | conta_externa |
+    | "Google"      |
+    | "Facebook"    |
