@@ -15,31 +15,32 @@ Funcionalidade: Configuração de Saldo
 
             Exemplos:
                 | codigo_usuario | tipo_operacao |
-                #| "user_cash_1"  | "Prêmio"      |
-                #| "user_cash_1"  | "Diamante"    |
-                #| "user_cash_2"  | "Prêmio"      |
-                #| "user_cash_2"  | "Diamante"    |
-                #| "user_cash_3"  | "Prêmio"      |
-                #| "user_cash_3"  | "Diamante"    |
-                #| "user_cash_4"  | "Prêmio"      |
-                #| "user_cash_4"  | "Diamante"    |
-                #| "user_cash_5"  | "Prêmio"      |
-                #| "user_cash_5"  | "Diamante"    |
-                #| "user_cash_6"  | "Prêmio"      |
-                #| "user_cash_6"  | "Diamante"    |
-                #| "user_cash_7"  | "Prêmio"      |
-                #| "user_cash_7"  | "Diamante"    |
-                #| "user_cash_8"  | "Prêmio"      |
-                #| "user_cash_8"  | "Diamante"    |
-                #| "user_cash_9"  | "Prêmio"      |
-                #| "user_cash_9"  | "Comissão"    |
-                #| "user_cash_10" | "Prêmio"      |
-                #| "user_cash_10" | "Crédito"     |
-                #| "user_cash_10" | "Diamante"    |
-                #| "user_cash_11" | "Prêmio"      |
-                #| "user_cash_11" | "Crédito"     |
-                #| "user_cash_11" | "Diamante"    |
+                | "user_cash_1"  | "Prêmio"      |
+                | "user_cash_1"  | "Diamante"    |
+                | "user_cash_2"  | "Prêmio"      |
+                | "user_cash_2"  | "Diamante"    |
+                | "user_cash_3"  | "Prêmio"      |
+                | "user_cash_3"  | "Diamante"    |
+                | "user_cash_4"  | "Prêmio"      |
+                | "user_cash_4"  | "Diamante"    |
+                | "user_cash_5"  | "Prêmio"      |
+                | "user_cash_5"  | "Diamante"    |
+                | "user_cash_6"  | "Prêmio"      |
+                | "user_cash_6"  | "Diamante"    |
+                | "user_cash_7"  | "Prêmio"      |
+                | "user_cash_7"  | "Diamante"    |
+                | "user_cash_8"  | "Prêmio"      |
+                | "user_cash_8"  | "Diamante"    |
+                | "user_cash_9"  | "Prêmio"      |
+                | "user_cash_9"  | "Comissão"    |
+                | "user_cash_10" | "Prêmio"      |
+                | "user_cash_10" | "Crédito"     |
+                | "user_cash_10" | "Diamante"    |
+                | "user_cash_11" | "Prêmio"      |
+                | "user_cash_11" | "Crédito"     |
+                | "user_cash_11" | "Diamante"    |
                 | "user_cash_12" | "Prêmio"      |
+                | "user_cash_12" | "Comissão"    |
 
 
     @script_i_saldo_clube

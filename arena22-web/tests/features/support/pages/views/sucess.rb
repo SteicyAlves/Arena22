@@ -1,13 +1,11 @@
 class Sucess < SitePrism::Section
     include Capybara::DSL
 
-    set_default_search_arguments 'div[class^="styles__BackgorundImageSuccess"]'
+    set_default_search_arguments 'div[class^="styles__BoxSuccess"]'
     
     element :welcome_text, 'p[class^="styles__TextScreenSucess"]', match: :first
-
-    def initialize
-        @welcome_message = 'Bem-vindo ao time '
-    end
+    
+    @welcome_message = 'Bem-vindo ao time '
 
     def dismiss_user_registered
         click_link('OK')

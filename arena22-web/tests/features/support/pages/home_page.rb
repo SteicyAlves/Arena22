@@ -3,12 +3,9 @@ class HomePage < SitePrism::Page
 
     set_url('/')
 
+    section :header, Header
     section :onesignal_dialog, OnesignalDialog
     section :app_installation, AppInstallation
-
-    def header
-        Header.new
-    end
 
     def tournament_card
         TournamentCard.new

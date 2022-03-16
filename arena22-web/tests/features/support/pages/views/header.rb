@@ -1,15 +1,15 @@
-class Header
+class Header < SitePrism::Section
     include Capybara::DSL
 
-    def initialize
-        @registration_button = 'Cadastre-se'
-    end
+    set_default_search_arguments 'header'
+
+    element :registration_button, 'button[class^="styles__SignUpButton"]', text: 'Cadastre-se'
     
     def user_logged
         find('.username').text.chomp
     end
 
     def click_button_register
-        click_link(@registration_button)
+        registration_button.click
     end
 end

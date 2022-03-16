@@ -3,6 +3,8 @@ class UserRegistrationPage < SitePrism::Page
 
     set_url('/cadastre-se')
 
+    section :sucess, Sucess
+
     element :email_input, '#email'
     element :password_input, '#senha'
     element :password_confirm_input, '#senhaConfirma'
@@ -22,10 +24,6 @@ class UserRegistrationPage < SitePrism::Page
     def modal
         Modal.new
     end 
-
-    def sucess
-        Sucess.new
-    end
 
     def fill_with_optional_email(user)
         email_input.set(user.email)
