@@ -1,9 +1,0 @@
----
-url: "https://hml03gratis-web.azurewebsites.net"
-environment: "03"
-database:
-  :host: "arenahml03srv.database.windows.net"
-  :database: "Arenahml03database"
-  :username: "arenausrdb"
-  :password: "T1kQ0lAXjTik0ef"
-  :azure: TRUE

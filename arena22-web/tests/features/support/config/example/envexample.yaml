@@ -1,0 +1,9 @@
+---
+url: "https://coloque_aqui_a_url_do_ambiente.com.br"
+environment: "Coloque o número do ambiente" #Caso seja principal, deixe vazio
+database:
+  :host: "Coloque aqui o host do banco"
+  :database: "Coloque aqui o nome do banco"
+  :username: "Coloque aqui o usuário do banco"
+  :password: "Coloque aqui a senha do banco"
+  :azure: #Coloque TRUE se o banco for da azure ou FALSE, caso não

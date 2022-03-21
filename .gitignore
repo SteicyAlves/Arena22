@@ -1,2 +1,3 @@
-reports/
-config/environment/
+reports
+!reports/.gitkeep
+environment

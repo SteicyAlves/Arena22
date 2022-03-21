@@ -61,6 +61,16 @@
             Para verificar se tudo ocorreu com sucesso: cucumber-json-formatter --help
 ```
 
+## Configuração de Ambientes
+
+```shell script
+Para configurar os ambientes onde os testes serão rodados, altere o nome da pasta 'example' em 'tests\features\support\config\example' para 'environment'.
+    - Após isso, você obterá o seguinte caminho: 'tests\features\support\config\environment'
+
+Para cada arquivo de 'environment', preencha as informações solicitadas com os dados do ambiente.
+    - Caso haja dúvidas sobre os dados que devem ser preenchidos, acesse o arquivo 'envexample.yaml' dentro de 'environment', para ser norteado sobre o que preencher.
+```
+
 ## Execução dos Cenários de Teste
 
 ```shell script
